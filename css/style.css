@@ -191,9 +191,9 @@ body {
 
 .product {
   position: relative;
-  background-image: url('/images/section2/bg.png');
+  background-color: #ff7235;
   height: 712px;
-  background-color: black;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
