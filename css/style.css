@@ -1228,8 +1228,8 @@ hr {
     width: 350px;
   }
   .download__right-bulp {
-    width: 350px;
-    right: -50px;
+    width: 300px;
+    /* right: -50px; */
   }
 
   .work__list {
