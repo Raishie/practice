@@ -1007,9 +1007,6 @@ hr {
 
 /* ======================================================= */
 @media (max-width: 1300px) {
-  .advantage {
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 1160px) {
@@ -1086,6 +1083,15 @@ hr {
     gap: 40px;
   }
 
+  .plan__list-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+    min-width: 650px;
+  }
+
   /* PLAN */
 
   .plan__title {
@@ -1107,15 +1113,6 @@ hr {
 
   .plan__list {
     margin-bottom: 0;
-  }
-
-  .plan__list-item {
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    justify-content: center;
-    padding: 30px;
-    min-width: 650px;
   }
 
   .plan__list-title {
@@ -1172,10 +1169,6 @@ hr {
   }
   .tracking__systems {
     font-size: 16px;
-  }
-  .work__list {
-    flex-wrap: wrap;
-    justify-content: center;
   }
 
   .work__products {
@@ -1237,6 +1230,11 @@ hr {
   .download__right-bulp {
     width: 350px;
     right: -50px;
+  }
+
+  .work__list {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media (max-width: 830px) {
